@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular Places in Matale</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/places.css">
+</head>
+<body>
+    <header>
+        <img src="../images/journey_six.png" alt="Journey Six Logo" class="logo">
+        <div class="header-content">
+            <h1>Welcome to the Travel Guide of Matale District</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li> <!-- Updated href -->
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contactus">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="places-list">
+            <h2>Popular Places in Matale</h2>
+            <div class="place-grid">
+                <div class="place-card"onclick="window.location.href='place1.html'">
+                    <img src="../images/8.jpg" alt="Aluvihara Rock Cave Temple">
+                    <h3>Aluvihara Rock Cave Temple</h3>
+                    <p>An ancient Buddhist temple famous for its rock inscriptions and historical significance.</p>
+                    <a href="#aluvihara" class="details-button" onclick="window.location.href='place1.html'">View Details</a>
+                </div>
+                <div class="place-card"onclick="showDetails('knuckles')">
+                    <img src="../images/13.jpg" alt="Sigiriya">
+                    <h3>Sigiriya</h3>
+                    <p>Sigiriya is a fifth century fortress in Sri Lanka which has been carved out of an inselberg, a hill of hard volcanic rock</p>
+                    <a href="#Sigiriya" class="details-button" onclick="showDetails('knuckles')">view Details</a>
+                </div>
+                <div class="place-card"onclick="showDetails('knuckles')">
+                    <img src="../images/14.jpg" alt="Sembuwatta Lake">
+                    <h3>Sembuwatta Lake</h3>
+                    <p>A beautiful man-made lake surrounded by tea plantations and misty hills.</p>
+                    <a href="#sembuwatta" class="details-button" onclick="showDetails('sembuwatta')">View Details</a>
+                </div>
+                <div class="place-card"onclick="showDetails('knuckles')">
+                    <img src="../images/15.jpeg" alt="Riveston">
+                    <h3>Riveston</h3>
+                    <p> A beautiful hike in Riverston, Matale into the mountains to eventually finish at .the peak known as 'The World's End'.</p>
+                    <a href="#Riveston" class="details-button" onclick="showDetails('wasgamuwa')">View Details</a>
+                </div>
+                <div class="place-card"onclick="showDetails('knuckles')">
+                    <img src="../images/16.jpeg" alt="Pidurangala">
+                    <h3>Pidurangala</h3>
+                    <p>Pidurangala Rock is an incredible 360-degree viewpoint located opposite the world-famous Sigiriya Lion Rock. </p>
+                    <a href="#Pidurangala" class="details-button" onclick="showDetails('wasgamuwa')">View Details</a>
+                </div>
+                <div class="place-card"onclick="showDetails('knuckles')">
+                    <img src="../images/17.jpeg" alt="Sri Muthumari Amman Kovil">
+                    <h3>Sri Muthumari Amman Kovil</h3>
+                    <p>It is a magnificent colorful temple, with tall towers, intricate carvings and realistic statues of deities and goddesses.</p>
+                    <a href="#Sri Muthumari Amman Kovil" class="details-button" onclick="showDetails('wasgamuwa')">View Details</a>
+                </div>
+                <div class="place-card"onclick="showDetails('knuckles')">
+                    <img src="../images/18.jpeg" alt="Bambara kiri ella">
+                    <h3>Bambara kiri ella</h3>
+                    <p>Amazing waterfall located near Rattota, Matale district. The fall of this waterfall is about 10m and can be viewed from three parts.</p>
+                    <a href="#Bambara kiri ella" class="details-button" onclick="showDetails('wasgamuwa')">View Details</a>
+                </div>
+                <div class="place-card"onclick="showDetails('knuckles')">
+                    <img src="../images/19.jpeg" alt="Hulangala">
+                    <h3>Hulangala</h3>
+                    <p>The mini world's end lies at a height of 760 meters (2500 feet) above sea level.</p>
+                    <a href="#Hulangala" class="details-button" onclick="showDetails('wasgamuwa')">View Details</a>
+                </div>
+                <div class="place-card"onclick="showDetails('knuckles')">
+                    <img src="../images/20.jpeg" alt="Seara ella">
+                    <h3>Sera ella</h3>
+                    <p>Sera Ella is a waterfall located in Pothatawela village, a place near Laggala in the Matale District of Sri Lanka.</p>
+                    <a href="#Seara ella" class="details-button" onclick="showDetails('wasgamuwa')">View Details</a>
+                </div>
+                <div class="place-card"onclick="showDetails('knuckles')">
+                    <img src="../images/21.jpeg" alt="Hunnasgiriya waterfall">
+                    <h3>Hunnasgiriya waterfall</h3>
+                    <p>Hunas Falls is not a natural waterfall. It's an artificial waterfall made by the Elkaduwa plantation. The height of the falls is around 48 m</p>
+                    <a href="#Hunnasgiriya waterfall" class="details-button" onclick="showDetails('wasgamuwa')">View Details</a>
+                </div>
+                <div class="place-card"onclick="showDetails('knuckles')">
+                    <img src="../images/22.jpeg" alt="Rangiri dambulu viharaya">
+                    <h3>Rangiri dambulu viharaya</h3>
+                    <p>A sacred pilgrimage site for 22 centuries, this cave monastery, with its five sanctuaries, is the largest, best-preserved cave-temple complex in Sri Lanka.</p>
+                    <a href="#Rangiri dambulu viharaya" class="details-button" onclick="showDetails('wasgamuwa')">View Details</a>
+                </div>
+                <div class="place-card"onclick="showDetails('knuckles')">
+                    <img src="../images/23.jpeg" alt="kaludiyapokuna">
+                    <h3>kaludiyapokuna</h3>
+                    <p>Kaludiya Pokuna Archeological Forest Site is a forest with archeological remains in Kandalama, in the Dry Zone of Sri Lanka.</p>
+                    <a href="#kaludiyapokuna" class="details-button" onclick="showDetails('wasgamuwa')">View Details</a>
+                </div>
+
+            </div>
+        </section>
+
+      
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Matale District Travel Guide. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function showDetails(id) {
+            document.querySelectorAll('.details').forEach(section => {
+                section.style.display = 'none';
+            });
+            document.getElementById(id).style.display = 'block';
+            document.getElementById('places-list').style.display = 'none';
+        }
+
+        function hideDetails() {
+            document.querySelectorAll('.details').forEach(section => {
+                section.style.display = 'none';
+            });
+            document.getElementById('places-list').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
